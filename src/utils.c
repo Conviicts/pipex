@@ -6,7 +6,7 @@
 /*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/17 21:02:15 by admin             #+#    #+#             */
-/*   Updated: 2021/09/19 06:03:30 by admin            ###   ########.fr       */
+/*   Updated: 2021/09/19 06:46:33 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,5 +70,5 @@ int	access_file(char *s, int mode)
 		return (open(s, O_RDONLY));
 	}
 	else
-		return (open(s, O_CREAT | O_WRONLY | O_TRUNC));
+		return (open(s, O_CREAT | O_WRONLY | O_TRUNC, S_IRWXU));
 }
