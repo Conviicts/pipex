@@ -6,12 +6,12 @@
 #    By: admin <admin@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/19 08:49:06 by admin             #+#    #+#              #
-#    Updated: 2021/09/19 08:49:07 by admin            ###   ########.fr        #
+#    Updated: 2021/09/19 08:57:55 by admin            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME			=		pipex
-CC				=		gcc
+CC				=		clang
 FLAGS			=		-Wall -Werror -Wextra -g -I $(HEADER) #-fsanitize=address
 
 HEADER          =		./inc/
