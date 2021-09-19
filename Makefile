@@ -1,6 +1,6 @@
 NAME			=		pipex
 CC				=		gcc
-FLAGS			=		-g -I $(HEADER) # -Wall -Werror -Wextra -fsanitize=address
+FLAGS			=		-Wall -Werror -Wextra -g -I $(HEADER) #-fsanitize=address
 
 HEADER          =		./inc/
 SRCS            =		src/main.c			\
