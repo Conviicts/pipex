@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 NAME			=		pipex
-CC				=		clang
+CC				=		cc
 FLAGS			=		-Wall -Werror -Wextra -g -I $(HEADER) #-fsanitize=address
 
 HEADER          =		./inc/
